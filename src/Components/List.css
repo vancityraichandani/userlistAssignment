@@ -1,0 +1,52 @@
+
+
+.cardWrapper{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    margin: 2%;
+    margin-right: 3%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 3%;
+}
+
+.mq{
+    width: 51%;
+}
+
+.mobnav{
+    margin-bottom: 5%;
+}
+
+
+
+/* media query */
+
+/* 400px */
+
+@media screen and (max-width:450px){
+    .details{
+        text-align: center;
+        margin-top: 4%;
+    }
+    .mq{
+        height: 320px;
+        width: 81%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobnav{
+        margin-bottom: 17%;
+    }
+} 
